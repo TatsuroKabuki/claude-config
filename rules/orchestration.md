@@ -1,6 +1,6 @@
 # オーケストレーション方針（全リポジトリ共通）
 
-> **正本は `TatsuroKabuki/claude-config`。** 各リポジトリは `.claude/agents` に git submodule として取り込み、`CLAUDE.md` から `@.claude/agents/rules/orchestration.md` で import する。直接編集せず、正本を直して push → 各リポジトリで submodule ポインタを更新する。
+> **正本は claude-config リポジトリ（このファイルを含む submodule の取得元）。** 各リポジトリは `.claude/agents` に git submodule として取り込み、`CLAUDE.md` から `@.claude/agents/rules/orchestration.md` で import する。直接編集せず、正本を直して push → 各リポジトリで submodule ポインタを更新する。
 > リポジトリ固有のルール（対象アプリの判定・コマンド・規約・git 運用）はここに書かない。各リポジトリの `CLAUDE.md` / `AGENTS.md` / `CODING_GUIDELINES.md` が権威で、それらと食い違う場合はリポジトリ側が優先する。
 
 ## 0. 環境の判定（ローカル / Claude Code on the web）

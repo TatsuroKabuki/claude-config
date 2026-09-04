@@ -11,7 +11,7 @@ Claude Code のオーケストレーター委譲設定の正本。各リポジ�
 
 ```bash
 # .gitignore で .claude/* を無視している場合は先に !.claude/agents/ を追加する
-git submodule add https://github.com/TatsuroKabuki/claude-config.git .claude/agents
+git submodule add <このリポジトリの URL> .claude/agents
 ```
 
 `CLAUDE.md` に次の 1 行を追加する:
